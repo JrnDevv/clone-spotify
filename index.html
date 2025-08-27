@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>spotify</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login - Spotify</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo"> <i class="fa-brands fa-spotify fa-2x"></i> <h1>Spotify</h1> </div>
-        <nav>
-            <ul>
-                <li>Premium</li>
-                <li>Suporte</li>
-                <li>Baixar</li>
-                <li>Inscrever-se</li>
-                <li>Entrar</li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <div id="texthero">
-            <h1>Spotify Premium </h1>
-            <h2>Ganhe <strong>3 meses <strong></strong> de <br> Premium grátis </h2>
-            <h3>Aproveite música sem anúncios, ouça offline e <br> muito mais. Cancele quando quiser</h3>
-            <button>Ganhe 3 meses grátis</button>
-        </div>
-        <div id="spot"> 
-            <img src="spot.svg" alt="svg">
+    <section class="login">
+        <div id="card">
+            <div id="icon">
+                <i class="fa-brands fa-spotify fa-3x"></i>
+            </div>
+            <h1>Entrar no Spotify</h1>
+
+            <div id="social-buttons">
+                <button id="google" type="button"> <i id="icon_g" class="fa-brands fa-google"></i>Continuar com o Google</button>
+                <button id="facebook" type="button"> <i id="icon_f" class="fa-brands fa-facebook"></i>Continuar com o Facebook</button>
+                <button id="apple" type="button"> <i id="icon_a" class="fa-brands fa-apple"></i>Continuar com a Apple</button>
+                <button id="telefone" type="button"> <i id="icon_t" class="fa-solid fa-phone"></i>Continuar com Número de telefone</button>
+            </div>
+
+            <div id="divider">
+                <hr><span>ou</span><hr>
+            </div>
+
+            <form id="login-form">
+                <label for="username">E-mail ou nome de usuário</label>
+                <input type="text" id="username" name="username">
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password">
+
+                <div id="options">
+                    <label><input type="checkbox"> Lembrar de mim</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+
+                <button id="login-btn" type="submit">Entrar</button>
+            </form>
+
+            <div id="signup">
+                <p>Não tem conta? <a href="#">Inscreva-se no Spotify</a></p>
+            </div>
         </div>
     </section>
 </body>
 </html>
+    
