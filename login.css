@@ -1,0 +1,159 @@
+body {
+    background: radial-gradient(circle, rgba(191, 196, 190, 1) 0%, rgba(90, 97, 93, 1) 0%, rgba(8, 7, 7, 1) 71%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 100px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1efef;
+    border-radius: 10px;
+    padding: 40px;
+    width: 450px;
+    text-align: center;
+}
+
+#icon {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#social-buttons button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#google {
+    background: white;
+    color: black;
+}
+
+#facebook {
+    background: #1877f2;
+    color: white;
+}
+
+#icon_g {
+    padding: 0 5px;
+}
+#icon_f {
+    padding: 0 5px;
+}
+#icon_a {
+    padding: 0 5px;
+}
+#icon_t {
+    padding: 0 9px;
+}
+
+#apple {
+    background: black;
+    color: white;
+}
+
+#telefone {
+    background: #1db954;
+    color: white;
+}
+
+#social-buttons button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+#divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #888;
+}
+
+#divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #555;
+}
+
+#divider span {
+    margin: 0 10px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#login-form label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+#login-form input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background: #111;
+    color: white;
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+#options a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+#login-btn {
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#login-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+#signup {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+#signup a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
